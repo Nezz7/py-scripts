@@ -1,0 +1,7 @@
+targets:
+  - url: https://httpstat.us/404
+    expected_status_code: 404
+  - url: https://httpstat.us/401
+    expected_status_code: 400
+  - url: https://httpstat.us/200
+    expected_status_code: 200
